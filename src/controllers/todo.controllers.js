@@ -37,4 +37,10 @@ router.get("/:id", async(req,res) =>{
         return res.send(err)
     }
 })
+router.delete("/:id", async(req,res){
+
+    try{
+        
+    }
+})
 module.exports = router
